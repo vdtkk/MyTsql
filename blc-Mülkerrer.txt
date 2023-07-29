@@ -1,0 +1,7 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT fİYAT,mİKTAR,tUTAR,*
+  FROM [BlcHitit].[dbo].[Hareketler] WHERE PerakendeKasaIslemTarihi BETWEEN '2023-07-28 00:00:00.000' AND'2023-07-28 23:59:59.000'  ORDER BY IND DESC
+
+  select  StokAdi,fİYAT,mİKTAR,tUTAR,PerakendeKasaIslemTarihi, * from  [BlcHitit].[dbo].[Hareketler] WHERE Tutar = '225.0' order by ınd desc
+
+  delete [BlcHitit].[dbo].[Hareketler]  where Ind=1445467
